@@ -1,0 +1,371 @@
+* {
+    box-sizing: border-box;
+}
+.head p {
+    color: #4e4e4e;
+    font-size: 0.9rem;
+}
+.head::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3rem;
+    height: 5px;
+    background-color: #0078ff;
+}
+
+/*  */
+/* Background Style */
+.bg-style {
+    background: no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+.bg-style::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+/* Background Style */
+
+/* ----------- Animation ----------- */
+@keyframes typed {
+    0% {
+        content: "";
+        border-right-color: #fff;
+    }
+    /* Designer */
+    1.5% {
+        content: "D";
+        border-right-color: #fff;
+    }
+    3% {
+        content: "De";
+        border-right-color: #fff;
+    }
+    4.5% {
+        content: "Des";
+        border-right-color: #fff;
+    }
+    6% {
+        content: "Desi";
+        border-right-color: #fff;
+    }
+    7.5% {
+        content: "Desig";
+        border-right-color: #fff;
+    }
+    9% {
+        content: "Design";
+        border-right-color: #fff;
+    }
+    10.5% {
+        content: "Designe";
+        border-right-color: #fff;
+    }
+    12% {
+        content: "Designer";
+        border-right-color: #fff;
+    }
+    13% {
+        content: "Designer";
+        border-right-color: transparent;
+    }
+    14% {
+        content: "Designer";
+        border-right-color: #fff;
+    }
+    15% {
+        content: "Designer";
+        border-right-color: transparent;
+    }
+    16% {
+        content: "Designer";
+        border-right-color: #fff;
+    }
+    17% {
+        content: "Designer";
+        border-right-color: transparent;
+    }
+    18% {
+        content: "Designer";
+        border-right-color: #fff;
+    }
+    19% {
+        content: "Designer";
+        border-right-color: transparent;
+    }
+    20% {
+        content: "Designer";
+        border-right-color: #fff;
+    }
+    20.5% {
+        content: "Designe";
+        border-right-color: #fff;
+    }
+    21% {
+        content: "Design";
+        border-right-color: #fff;
+    }
+    21.5% {
+        content: "Desig";
+        border-right-color: #fff;
+    }
+    22% {
+        content: "Desi";
+        border-right-color: #fff;
+    }
+    22.5% {
+        content: "Des";
+        border-right-color: #fff;
+    }
+    23% {
+        content: "De";
+        border-right-color: #fff;
+    }
+    23.5% {
+        content: "De";
+        border-right-color: #fff;
+    }
+    /* Developer */
+    25% {
+        content: "Dev";
+        border-right-color: #fff;
+    }
+    26.5% {
+        content: "Deve";
+        border-right-color: #fff;
+    }
+    28% {
+        content: "Devel";
+        border-right-color: #fff;
+    }
+    29.5% {
+        content: "Develo";
+        border-right-color: #fff;
+    }
+    31% {
+        content: "Develop";
+        border-right-color: #fff;
+    }
+    32.5% {
+        content: "Develope";
+        border-right-color: #fff;
+    }
+    34% {
+        content: "Developer";
+        border-right-color: #fff;
+    }
+    35% {
+        content: "Developer";
+        border-right-color: transparent;
+    }
+    36% {
+        content: "Developer";
+        border-right-color: #fff;
+    }
+    37% {
+        content: "Developer";
+        border-right-color: transparent;
+    }
+    38% {
+        content: "Developer";
+        border-right-color: #fff;
+    }
+    39% {
+        content: "Developer";
+        border-right-color: transparent;
+    }
+    40% {
+        content: "Developer";
+        border-right-color: #fff;
+    }
+    41% {
+        content: "Developer";
+        border-right-color: transparent;
+    }
+    42% {
+        content: "Developer";
+        border-right-color: #fff;
+    }
+    42.5% {
+        content: "Develope";
+        border-right-color: #fff;
+    }
+    43% {
+        content: "Develop";
+        border-right-color: #fff;
+    }
+    43.5% {
+        content: "Develo";
+        border-right-color: #fff;
+    }
+    44% {
+        content: "Devel";
+        border-right-color: #fff;
+    }
+    44.5% {
+        content: "Deve";
+        border-right-color: #fff;
+    }
+    45% {
+        content: "Dev";
+        border-right-color: #fff;
+    }
+    45.5% {
+        content: "De";
+        border-right-color: #fff;
+    }
+    46% {
+        content: "D";
+        border-right-color: #fff;
+    }
+    46.5% {
+        content: "";
+        border-right-color: #fff;
+    }
+    /* Freelaner */
+    48% {
+        content: "L";
+        border-right-color: #fff;
+    }
+    49% {
+        content: "La";
+        border-right-color: #fff;
+    }
+    50.5% {
+        content: "Lar";
+        border-right-color: #fff;
+    }
+    52% {
+        content: "Larr";
+        border-right-color: #fff;
+    }
+    53.5% {
+        content: "Larry";
+        border-right-color: #fff;
+    }
+    55% {
+        content: "Larry ";
+        border-right-color: #fff;
+    }
+    56.5% {
+        content: "Larry D";
+        border-right-color: #fff;
+    }
+    58% {
+        content: "Larry Da";
+        border-right-color: #fff;
+    }
+    60% {
+        content: "Larry Dan";
+        border-right-color: #fff;
+    }
+    61.5% {
+        content: "Larry Dani";
+        border-right-color: #fff;
+    }
+    63% {
+        content: "Larry Danie";
+        border-right-color: #fff;
+    }
+    64.5% {
+        content: "Larry Daniel";
+        border-right-color: #fff;
+    }
+    66% {
+        content: "Larry Daniels";
+        border-right-color: #fff;
+    }
+    67% {
+        content: "Larry Daniels";
+        border-right-color: #fff;
+    }
+    68% {
+        content: "Larry Daniels";
+        border-right-color: transparent;
+    }
+    69% {
+        content: "Larry Daniels";
+        border-right-color: #fff;
+    }
+    70% {
+        content: "Larry Daniels";
+        border-right-color: transparent;
+    }
+    71.5% {
+        content: "Larry Daniels";
+        border-right-color: #fff;
+    }
+    73% {
+        content: "Larry Daniel";
+        border-right-color: #fff;
+    }
+    75% {
+        content: "Larry Danie";
+        border-right-color: #fff;
+    }
+    77% {
+        content: "Larry Dani";
+        border-right-color: #fff;
+    }
+    79% {
+        content: "Larry Dan";
+        border-right-color: #fff;
+    }
+    81.5% {
+        content: "Larry Da";
+        border-right-color: #fff;
+    }
+    84% {
+        content: "Larry D";
+        border-right-color: #fff;
+    }
+    86% {
+        content: "Larry ";
+        border-right-color: #fff;
+    }
+    87% {
+        content: "Larry";
+        border-right-color: #fff;
+    }
+    90% {
+        content: "Larr";
+        border-right-color: #fff;
+    }
+    92.5% {
+        content: "Lar";
+        border-right-color: #fff;
+    }
+    95% {
+        content: "La";
+        border-right-color: #fff;
+    }
+    97% {
+        content: "L";
+        border-right-color: #fff;
+    }
+    100% {
+        content: "";
+        border-right-color: #fff;
+    }
+}
+/* ----------- Animation ----------- */
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.py-6 {
+    padding-block: 80px !important;
+}
+
+.fs-7 {
+    font-size: 0.8rem !important;
+}
